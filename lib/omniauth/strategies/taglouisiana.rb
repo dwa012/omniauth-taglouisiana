@@ -7,7 +7,7 @@ module OmniAuth
       option :name, :doorkeeper
 
       option :client_options, {
-          :site => "https://moby.taglouisian.com",
+          :site => "https://moby.taglouisiana.com",
           :authorize_url => "/oauth/authorize"
       }
 
