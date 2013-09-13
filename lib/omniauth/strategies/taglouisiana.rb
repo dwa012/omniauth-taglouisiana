@@ -4,7 +4,7 @@ module OmniAuth
   module Strategies
     class TagLouisiana < OmniAuth::Strategies::OAuth2
       # change the class name and the :name option to match your application name
-      option :name, :doorkeeper
+      option :name, :taglouisiana
 
       option :client_options, {
           :site => "https://moby.taglouisiana.com",
@@ -27,3 +27,5 @@ module OmniAuth
     end
   end
 end
+
+OmniAuth.config.add_camelization 'taglouisiana', 'TagLouisiana'
